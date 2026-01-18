@@ -7,3 +7,9 @@ REQ-005,Implement TaskTimer Stop: Finalize total duration (accumulated + current
 REQ-006,Implement JiraSyncService - formatWorklog: Convert duration (millis) to Jira format (e.g. "2h 30m").
 REQ-007,Implement JiraSyncService - sync: Simulate API call. Verify it accepts correct payload (taskId, timeSpent, comment).
 REQ-008,Integration: Verify Stop action triggers Sync Service and updates Status to RESOLVED.
+REQ-009,Setup Spring Boot Web: Add dependencies (spring-boot-starter-web, thymeleaf) and create ApplicationLauncher.
+REQ-010,Create TaskController: Implement GET /tasks returning list of dummy/mock Jira issues.
+REQ-011,Create UI Template: Build src/main/resources/templates/index.html with a table of tasks.
+REQ-012,Implement Start Web Action: Add 'Start' button in UI that POSTs to /tasks/{id}/start -> Updates backend state.
+REQ-013,Implement Stop Web Action: Add 'Stop' button in UI that POSTs to /tasks/{id}/stop -> Triggers Log Time logic.
+REQ-014,Frontend Real-time Status: UI should reflect IN_PROGRESS status (maybe simple page reload or fetch).

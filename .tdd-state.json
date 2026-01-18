@@ -34,7 +34,7 @@
     {
       "id": "REQ-007",
       "description": "Implement JiraSyncService - sync: Simulate API call. Verify it accepts correct payload (taskId, timeSpent, comment).",
-      "status": "PENDING"
+      "status": "DONE"
     },
     {
       "id": "REQ-008",

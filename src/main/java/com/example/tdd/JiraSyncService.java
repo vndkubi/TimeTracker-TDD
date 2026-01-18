@@ -14,4 +14,8 @@ public class JiraSyncService {
     }
     return minutes + "m";
   }
+
+  public WorklogPayload sync(String taskId, String timeSpent, String comment) {
+    return new WorklogPayload(taskId, timeSpent, comment);
+  }
 }
