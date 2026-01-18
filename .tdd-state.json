@@ -29,7 +29,7 @@
     {
       "id": "REQ-006",
       "description": "Implement JiraSyncService - formatWorklog: Convert duration (millis) to Jira format (e.g. \"2h 30m\").",
-      "status": "PENDING"
+      "status": "DONE"
     },
     {
       "id": "REQ-007",
