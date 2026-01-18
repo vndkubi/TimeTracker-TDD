@@ -1,0 +1,46 @@
+{
+  "currentState": "GREEN",
+  "testMatrix": [
+    {
+      "id": "REQ-001",
+      "description": "Create Basic TimeEntry Model (Fields: startTime, endTime, accumulatedDuration)",
+      "status": "DONE"
+    },
+    {
+      "id": "REQ-002",
+      "description": "Implement TaskTimer Start: Initialize timer and set internal state to RUNNING. Check StartTime is recorded.",
+      "status": "DONE"
+    },
+    {
+      "id": "REQ-003",
+      "description": "Implement TaskTimer Pause: Calculate duration so far, set state to PAUSED. Clear current startTime.",
+      "status": "PENDING"
+    },
+    {
+      "id": "REQ-004",
+      "description": "Implement TaskTimer Resume: Set state back to RUNNING. Record new startTime. Preserve accumulated duration.",
+      "status": "PENDING"
+    },
+    {
+      "id": "REQ-005",
+      "description": "Implement TaskTimer Stop: Finalize total duration (accumulated + current session). Set state to STOPPED.",
+      "status": "PENDING"
+    },
+    {
+      "id": "REQ-006",
+      "description": "Implement JiraSyncService - formatWorklog: Convert duration (millis) to Jira format (e.g. \"2h 30m\").",
+      "status": "PENDING"
+    },
+    {
+      "id": "REQ-007",
+      "description": "Implement JiraSyncService - sync: Simulate API call. Verify it accepts correct payload (taskId, timeSpent, comment).",
+      "status": "PENDING"
+    },
+    {
+      "id": "REQ-008",
+      "description": "Integration: Verify Stop action triggers Sync Service and updates Status to RESOLVED.",
+      "status": "PENDING"
+    }
+  ],
+  "strictCoverageMode": true
+}
