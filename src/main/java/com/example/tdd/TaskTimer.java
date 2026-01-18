@@ -39,6 +39,15 @@ public class TaskTimer {
     this.state = State.RUNNING;
   }
 
+  public void stop() {
+    if (startTime != null) {
+      long elapsed = Duration.between(startTime, clock.get()).toMillis();
+      this.accumulatedDuration += elapsed;
+      this.startTime = null;
+    }
+    this.state = State.STOPPED;
+  }
+
   public State getState() {
     return state;
   }

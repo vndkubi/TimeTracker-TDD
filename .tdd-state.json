@@ -24,7 +24,7 @@
     {
       "id": "REQ-005",
       "description": "Implement TaskTimer Stop: Finalize total duration (accumulated + current session). Set state to STOPPED.",
-      "status": "PENDING"
+      "status": "DONE"
     },
     {
       "id": "REQ-006",
