@@ -19,7 +19,7 @@
     {
       "id": "REQ-004",
       "description": "Implement TaskTimer Resume: Set state back to RUNNING. Record new startTime. Preserve accumulated duration.",
-      "status": "PENDING"
+      "status": "DONE"
     },
     {
       "id": "REQ-005",

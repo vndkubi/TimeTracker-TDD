@@ -34,6 +34,11 @@ public class TaskTimer {
     this.state = State.PAUSED;
   }
 
+  public void resume() {
+    this.startTime = clock.get();
+    this.state = State.RUNNING;
+  }
+
   public State getState() {
     return state;
   }
