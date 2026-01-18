@@ -14,7 +14,7 @@
     {
       "id": "REQ-003",
       "description": "Implement TaskTimer Pause: Calculate duration so far, set state to PAUSED. Clear current startTime.",
-      "status": "PENDING"
+      "status": "DONE"
     },
     {
       "id": "REQ-004",
